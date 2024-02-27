@@ -3,13 +3,11 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-green-50 p-4 flex items-center justify-between">
-      {/* Logo on the left */}
+    <nav className="bg-white p-4 flex items-center justify-between">
       <div className="flex items-center ml-2">
         <img src="/images/Somraj.svg" alt="Logo" className="h-14" />
       </div>
 
-      {/* Navigation links and Get Resume Button in the middle */}
       <div className="flex space-x-4 font-semibold gap-4 ">
         <Link href="/">
           <p className="text-black">About me</p>
@@ -25,9 +23,8 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Get Resume Button on the right */}
       <Link href="/images.Somraj.svg">
-        <button className="bg-purple-600 hover:bg-green-800 text-white font-bold py-2 px-4 mr-2 rounded">
+        <button className="bg-indigo-500 hover:bg-green-800 text-white font-bold py-2 px-4 mr-4 rounded-[15px] w-[133px] h-[51px]">
           Get Resume
         </button>
       </Link>

@@ -6,13 +6,28 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-    },
+    extend: {},
   },
-  plugins: [],
+  variants: {},
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {};
+
+      // Define custom height values
+      for (let i = 100; i <= 1000; i += 50) {
+        newUtilities[`.h-${i}px`] = {
+          height: `${i}px`,
+        };
+      }
+
+      // Define custom width values
+      for (let i = 100; i <= 1000; i += 50) {
+        newUtilities[`.w-${i}px`] = {
+          width: `${i}px`,
+        };
+      }
+
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };
