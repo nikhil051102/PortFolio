@@ -4,7 +4,7 @@ const projects = [
     title: "Project 1",
     date: "Feb 2023",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum hello world kese ho lorem ipsum helloe Lorem ipsum dolor sit amet, consectetur adipiscing ",
+      "Lorem ipsum dolor sit amet, consectetur admmslkdipiscing elit. lorem ipsum hello world kese ho lorem ipsum helloe Lorem ipsum dolor sit amet, consectetur adipiscing ",
     repoLink: "https://github.com/user/project1",
     skills: ["JavaScript", "React", "Node.js"],
   },

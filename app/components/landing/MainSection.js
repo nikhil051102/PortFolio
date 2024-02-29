@@ -22,7 +22,7 @@ const MainSection = () => {
           </span>
         </p>
         <div className="flex mt-4">
-          <button className="flex items-center justify-center bg-indigo-500 hover:bg-green-800 text-white font-bold py-2 px-4 mt-4 rounded-[20px] h-[60px] w-[159px]">
+          <button className="flex items-center justify-center bg-indigo-600 hover:bg-green-800 text-white font-bold py-2 px-4 mt-4 rounded-[20px] h-[60px] w-[159px]">
             Let's Talk
             <span className="ml-2">
               <svg
