@@ -2,17 +2,17 @@ const SkillSection = () => {
   return (
     <div className="bg-blue-200 flex flex-wrap justify-evenly p-4">
       {/* left section */}
-      <div className="flex flex-col justify-center mt-8">
+      <div className="flex flex-col justify-center ml-4 mt-8">
         <div className="text-left">
           <h1 className="text-5xl leading-tight font-bold">
             Skills &<br />
             Experience
           </h1>
         </div>
-        <div className="w-[28rem] mt-6">
-          <p className="flex items-center ">
+        <div className="max-w-[75vh] w-auto mt-5">
+          <p className="flex items-center">
             <img src="/images/arrow.svg" alt="Arrow" />
-            <span className="ml-2 ">
+            <span className="ml-2 text-wrap">
               Experienced in crafting scalable web applications and implementing
               robust DevOps practices. Proficient in CI/CD pipelines,
               containerization (Docker, Kubernetes), cloud infrastructure
@@ -22,7 +22,7 @@ const SkillSection = () => {
           </p>
         </div>
         <div>
-          <h2 className="text-3xl font-semibold mt-8 mb-4">Skills</h2>
+          <h2 className="text-4xl font-semibold mt-8 mb-4">Skills</h2>
           <div className="flex flex-wrap w-[26rem] ">
             <img src="/images/nextjs.svg" alt="NextJS" className="p-2" />
             <img src="/images/go.svg" alt="Golang" className="p-2" />
@@ -41,9 +41,29 @@ const SkillSection = () => {
       </div>
 
       {/* right section */}
-      <div className="flex flex-col mt-8">
-        <h2 className="text-2xl font-semibold mt-4">Experience</h2>
-        <p>React, Node, Express, MongoDB, etc.</p>
+      <div className="mt-8 ml-4">
+        <div>
+          <div className="">
+            <h2 className="text-4xl font-semibold ">Experience</h2>
+          </div>
+
+          <div className="">
+            <div>
+              <img
+                src="/images/cardline.svg"
+                alt="NextJS"
+                className=" mr-[-2rem]"
+              />
+              <div className="flex justify-between">
+                <div>
+                  <h3 className="text-xl font-semibold">Growth Product</h3>
+                  <span className="ml-1">-Mamaearth</span>
+                </div>
+                <p>June 2023 - Present</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

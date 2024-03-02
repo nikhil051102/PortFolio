@@ -2,7 +2,7 @@ const MainSection = () => {
   return (
     <div className="bg-white flex flex-wrap justify-around">
       {/* Left Section */}
-      <div className="flex flex-col justify-left">
+      <div className="flex flex-col">
         <div className="mt-12 mb-[-2rem] ml-[-2rem]">
           <img src="/images/hello.svg" alt="Logo" className="h-14" />
         </div>
@@ -97,7 +97,7 @@ const MainSection = () => {
           </div>
 
           {/* About Me image - Centered at the Bottom */}
-          <div className="absolute bottom-6 ml-[-1.5em] left-1/2 transform -translate-x-1/2 p-6 fixed">
+          <div className="absolute bottom-6 ml-[-1.5em] left-1/2 transform -translate-x-1/2 p-6">
             <img
               src="/images/aboutme.svg"
               alt="About Me"
