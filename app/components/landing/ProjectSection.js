@@ -56,7 +56,7 @@ const ProjectSection = () => {
           </div>
         ))}
       </div>
-      <div className="flex items-center justify-center m-8">
+      <div className="flex items-center justify-center mt-8">
         <Link href="/portfolio">
           <button className="bg-indigo-600 hover:bg-green-800 w-auto  text-white p-3 rounded-[20px] items-center justify-center">
             View GitHub Profile

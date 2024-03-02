@@ -1,6 +1,6 @@
 const MainSection = () => {
   return (
-    <div className="bg-white flex flex-row justify-center gap-40 p-4">
+    <div className="bg-white flex flex-wrap justify-around">
       {/* Left Section */}
       <div className="flex flex-col justify-left">
         <div className="mt-12 mb-[-2rem] ml-[-2rem]">
@@ -14,7 +14,7 @@ const MainSection = () => {
           </h1>
         </div>
         <p className="flex items-center mt-2">
-          <img src="/images/arrow.svg" alt="Arrow" className="h-0.5px w-3.9" />
+          <img src="/images/arrow.svg" alt="Arrow" />
           <span className="ml-2 ">
             From Pixels to Pipelines: Development,
             <br />
@@ -80,13 +80,13 @@ const MainSection = () => {
       </div>
 
       {/* Center Section */}
-      <div className="flex">
-        <div className="relative">
+      <div className="flex mb-8">
+        <div className="relative flex-wrap">
           {/* SomrajPP image */}
           <img
             src="/images/SomrajPP.svg"
             alt="Hero"
-            className="h-550px w-775px"
+            className="w-[30rem] bg-transparent"
           />
 
           {/* Paragraph text - Top Right */}
@@ -97,7 +97,7 @@ const MainSection = () => {
           </div>
 
           {/* About Me image - Centered at the Bottom */}
-          <div className="absolute bottom-6 ml-[-1.5em] left-1/2 transform -translate-x-1/2 p-8">
+          <div className="absolute bottom-6 ml-[-1.5em] left-1/2 transform -translate-x-1/2 p-6 fixed">
             <img
               src="/images/aboutme.svg"
               alt="About Me"
@@ -105,7 +105,7 @@ const MainSection = () => {
             />
           </div>
         </div>
-        <div className="ml-20 right-0 absolute mr-4">
+        <div className="right-0 absolute mr-4">
           <img src="/images/scrolldown.svg" />
         </div>
       </div>
