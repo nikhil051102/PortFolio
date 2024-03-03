@@ -1,8 +1,10 @@
+import experiences from "@/public/data/experience";
+
 const SkillSection = () => {
   return (
-    <div className="bg-blue-200 flex flex-wrap justify-evenly p-4">
+    <div className="bg-white flex flex-wrap justify-around p-4">
       {/* left section */}
-      <div className="flex flex-col justify-center ml-4 mt-8">
+      <div className="flex flex-col ml-4 mt-8">
         <div className="text-left">
           <h1 className="text-5xl leading-tight font-bold">
             Skills &<br />
@@ -41,27 +43,34 @@ const SkillSection = () => {
       </div>
 
       {/* right section */}
-      <div className="mt-8 ml-4">
+      <div className="mt-8 ml-4 w-[80vh]">
         <div>
           <div className="">
-            <h2 className="text-4xl font-semibold ">Experience</h2>
+            <h2 className="text-4xl font-semibold">Experience</h2>
           </div>
 
-          <div className="">
-            <div>
-              <img
-                src="/images/cardline.svg"
-                alt="NextJS"
-                className=" mr-[-2rem]"
-              />
-              <div className="flex justify-between">
-                <div>
-                  <h3 className="text-xl font-semibold">Growth Product</h3>
-                  <span className="ml-1">-Mamaearth</span>
+          <div className="antialiased">
+            {experiences.map((experience, index) => (
+              <div key={index} className="pt-4">
+                <img
+                  src="/images/cardline.svg"
+                  alt="NextJS"
+                  className="w-full"
+                />
+                <div className="flex justify-between">
+                  <div>
+                    <h3 className="text-l font-semibold p-2">
+                      {experience.title}
+                    </h3>
+                    <span className="pl-4 italic">-{experience.company}</span>
+                  </div>
+                  <p className="p-2">{experience.date}</p>
                 </div>
-                <p>June 2023 - Present</p>
               </div>
-            </div>
+            ))}
+          </div>
+          <div className="justify-center items-center flex">
+            <img src="./images/Devops.png" className="ml-2 mt-1 h-[40vh]" />
           </div>
         </div>
       </div>
