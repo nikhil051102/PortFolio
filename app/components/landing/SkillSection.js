@@ -25,19 +25,23 @@ const SkillSection = () => {
         </div>
         <div>
           <h2 className="text-4xl font-semibold mt-8 mb-4">Skills</h2>
-          <div className="flex flex-wrap w-[26rem] ">
+          <div className="flex flex-wrap justify-center w-[26rem] ">
             <img src="/images/nextjs.svg" alt="NextJS" className="p-2" />
             <img src="/images/go.svg" alt="Golang" className="p-2" />
             <img src="/images/git.svg" alt="Git" className="p-2" />
             <img src="/images/aws.svg" alt="AWS" className="p-2" />
+            <img src="/images/jenkins.svg" alt="Jenkins" className="p-2" />
             <img src="/images/docker.svg" alt="Docker" className="p-2" />
             <img
               src="/images/kubernetes.svg"
               alt="Kubernetes"
               className="p-2"
             />
-            <img src="/images/aws.svg" alt="AWS" className="p-2" />
+
             <img src="/images/figma.svg" alt="Figma" className="p-2" />
+            <p className="font-semibold text-xl underline pt-2">
+              Complete DevOps & Development Package
+            </p>
           </div>
         </div>
       </div>

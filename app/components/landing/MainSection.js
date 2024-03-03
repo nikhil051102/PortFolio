@@ -1,6 +1,6 @@
 const MainSection = () => {
   return (
-    <div className="bg-white flex flex-wrap justify-around">
+    <div className="bg-white flex flex-wrap justify-center md:justify-around">
       {/* Left Section */}
       <div className="flex flex-col">
         <div className="mt-12 mb-[-2rem] ml-[-2rem]">
@@ -79,9 +79,9 @@ const MainSection = () => {
         </div>
       </div>
 
-      {/* Center Section */}
-      <div className="flex mb-8">
-        <div className="relative flex-wrap">
+      {/* Right Section */}
+      <div className="flex mb-8 ">
+        <div className="relative flex-wrap hidden md:block">
           {/* SomrajPP image */}
           <img
             src="/images/SomrajPP.svg"
@@ -105,7 +105,7 @@ const MainSection = () => {
             />
           </div>
         </div>
-        <div className="right-0 absolute mr-4">
+        <div className="right-0 absolute mr-4 hidden md:block">
           <img src="/images/scrolldown.svg" />
         </div>
       </div>
