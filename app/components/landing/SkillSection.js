@@ -2,16 +2,16 @@ import experiences from "@/public/data/experience";
 
 const SkillSection = () => {
   return (
-    <div className="bg-white flex flex-wrap justify-around p-4">
+    <div className="bg-white flex flex-wrap justify-around p-4 shadow-2xl shadow-white">
       {/* left section */}
-      <div className="flex flex-col ml-4 mt-8">
+      <div className="flex flex-col ml-4 mt-8 justify-center">
         <div className="text-left">
           <h1 className="text-5xl leading-tight font-bold">
             Skills &<br />
             Experience
           </h1>
         </div>
-        <div className="max-w-[75vh] w-auto mt-5">
+        <div className="max-w-[70vh] w-auto mt-5">
           <p className="flex items-center">
             <img src="/images/arrow.svg" alt="Arrow" />
             <span className="ml-2 text-wrap">
@@ -47,7 +47,7 @@ const SkillSection = () => {
       </div>
 
       {/* right section */}
-      <div className="mt-8 ml-4 w-[80vh]">
+      <div className="mt-8 ml-4 w-[70vh]">
         <div>
           <div className="">
             <h2 className="text-4xl font-semibold">Experience</h2>
@@ -74,7 +74,7 @@ const SkillSection = () => {
             ))}
           </div>
           <div className="justify-center items-center flex">
-            <img src="./images/Devops.png" className="ml-2 mt-1 h-[40vh]" />
+            <img src="./images/Devops.png" className="ml-2 mt-1 h-[35vh]" />
           </div>
         </div>
       </div>

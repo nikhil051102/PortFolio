@@ -1,13 +1,13 @@
 const MainSection = () => {
   return (
-    <div className="bg-white flex flex-wrap justify-center md:justify-around">
+    <div className="bg-white flex flex-wrap justify-center md:justify-around my-2">
       {/* Left Section */}
       <div className="flex flex-col">
         <div className="mt-12 mb-[-2rem] ml-[-2rem]">
           <img src="/images/hello.svg" alt="Logo" className="h-14" />
         </div>
         <div className="text-left">
-          <h1 className="text-5xl leading-tight font-bold">
+          <h1 className="text-5xl tracking-[5px] leading-tight font-bold">
             I am <br /> Developing🧑‍💻
             <br /> Deploying🚀 <br />
             Designing🎨

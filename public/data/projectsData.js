@@ -1,7 +1,7 @@
 const projects = [
   {
     image: "https://picsum.photos/200",
-    title: "Project 1",
+    title: "Golang Payment API",
     date: "Feb 2023",
     description:
       "Lorem ipsum dolor sit amet, consectetur admmslkdipiscing elit. lorem ipsum hello world kese ho lorem ipsum helloe Lorem ipsum dolor sit amet, consectetur adipiscing ",

@@ -1,3 +1,4 @@
+import Footer from "../components/common/Footer";
 import Navbar from "../components/common/Navbar";
 import ContactMe from "../components/landing/ContactMe";
 import MainSection from "../components/landing/MainSection";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <ProjectSection />
       <SkillsSection />
       <ContactMe />
+      <Footer />
     </>
   );
 };
