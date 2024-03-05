@@ -1,6 +1,5 @@
-import Head from "next/head";
 import Layout from "./layout";
-import HomePage from "./pages/index";
+import HomePage from "./pages/page";
 import "tailwindcss/tailwind.css";
 
 const App = () => {

@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white p-4 flex items-center justify-between sticky z-20 top-0 shadow-2xl shadow-silver-100">
+    <nav className="bg-white p-3 flex items-center justify-between sticky z-20 top-0 shadow-2xl shadow-silver-100">
       <div className="md:hidden flex items-center">
         <button
           onClick={toggleMenu}
@@ -22,7 +22,9 @@ const Navbar = () => {
         </button>
       </div>
       <div className="flex items-center justify-center ml-8 md:ml-2">
-        <img src="/images/Somraj.svg" alt="Logo" className="h-14" />
+        <Link href="/">
+          <img src="/images/Somraj.svg" alt="Logo" className="h-14" />
+        </Link>
       </div>
 
       <div className="hidden md:flex space-x-4 font-semibold gap-4 ">
@@ -63,7 +65,7 @@ const Navbar = () => {
       )}
 
       <Link href="/images.Somraj.svg">
-        <button className="hidden md:block bg-indigo-500 hover:bg-green-800 text-white font-bold py-2 px-4 md:mr-4 rounded-[15px] md:w-[133px]  md:h-[51px] mr-[-2px]">
+        <button className="hidden md:block bg-indigo-500 hover:bg-green-800 text-white font-bold py-4 px-4 md:mr-4 rounded-[15px]   mr-[-2px]">
           Get Resume
         </button>
         {/* <button className="block md:hidden bg-indigo-600 hover:bg-green-800 text-white font-bold py-2 px-3 md:mr-4 rounded-[15px] md:w-[133px]  md:h-[51px]">
