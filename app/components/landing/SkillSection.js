@@ -11,7 +11,7 @@ const SkillSection = () => {
             Experience
           </h1>
         </div>
-        <div className="md:max-w-[70vh] md:w-auto w-[25rem] mt-5">
+        <div className="md:max-w-[70vh] md:w-auto w-[24rem] mt-5">
           <p className="flex items-center">
             <img src="/images/arrow.svg" alt="Arrow" />
             <span className="ml-2 text-wrap">
@@ -25,29 +25,33 @@ const SkillSection = () => {
         </div>
         <div>
           <h2 className="text-4xl font-semibold mt-8 mb-4">Skills</h2>
-          <div className="flex flex-wrap justify-center md:w-[26rem] ">
-            <img src="/images/nextjs.svg" alt="NextJS" className="p-2" />
-            <img src="/images/go.svg" alt="Golang" className="p-2" />
-            <img src="/images/git.svg" alt="Git" className="p-2" />
-            <img src="/images/aws.svg" alt="AWS" className="p-2" />
-            <img src="/images/jenkins.svg" alt="Jenkins" className="p-2" />
-            <img src="/images/docker.svg" alt="Docker" className="p-2" />
+          <div className="flex flex-wrap justify-center md:w-[26rem] w-[24rem]">
+            <img src="/images/nextjs.svg" alt="NextJS" className="md:p-2 p-1" />
+            <img src="/images/go.svg" alt="Golang" className="md:p-2 p-1" />
+            <img src="/images/git.svg" alt="Git" className="md:p-2 p-1" />
+            <img src="/images/aws.svg" alt="AWS" className="md:p-2 p-1" />
+            <img
+              src="/images/jenkins.svg"
+              alt="Jenkins"
+              className="md:p-2 p-1"
+            />
+            <img src="/images/docker.svg" alt="Docker" className="md:p-2 p-1" />
             <img
               src="/images/kubernetes.svg"
               alt="Kubernetes"
-              className="p-2"
+              className="md:p-2 p-1"
             />
 
-            <img src="/images/figma.svg" alt="Figma" className="p-2" />
-            <p className="font-semibold text-l underline pt-2">
-              Complete DevOps & Development Package
+            <img src="/images/figma.svg" alt="Figma" className="md:p-2 p-1" />
+            <p className="font-semibold text-xl underline pt-2">
+              DevOps & Development Package
             </p>
           </div>
         </div>
       </div>
 
       {/* right section */}
-      <div className="mt-8 ml-2 overflow-x-hidden overscroll-x-none container md:w-[70vh]">
+      <div className="mt-8 ml-2 overflow-x-hidden overscroll-x-none container md:w-[70vh] w-[24rem]">
         <div>
           <div className="">
             <h2 className="text-4xl font-semibold">Experience</h2>
@@ -74,7 +78,7 @@ const SkillSection = () => {
             ))}
           </div>
           <div className="justify-center items-center flex">
-            <img src="./images/Devops.png" className="ml-2 mt-1 h-[35vh]" />
+            <img src="./images/Devops.png" className="ml-2 mt-1 md:h-[35vh]" />
           </div>
         </div>
       </div>
