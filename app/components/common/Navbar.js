@@ -12,54 +12,54 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white p-3 flex items-center justify-between sticky z-20 top-0 shadow-2xl shadow-silver-100">
+    <nav className="bg-black p-3 w-full flex items-center justify-between sticky z-20 top-0 shadow-2xl shadow-silver-100">
       <div className="md:hidden flex items-center">
         <button
           onClick={toggleMenu}
-          className="text-2xl text-black focus:outline-none"
+          className="text-2xl text-white focus:outline-none"
         >
           <FaBars />
         </button>
       </div>
       <div className="flex items-center justify-center ml-8 md:ml-2">
         <Link href="/">
-          <img src="/images/Somraj.svg" alt="Logo" className="h-14" />
+          <img src="/images/SomrajBGB.png" alt="Logo" className="h-14" />
         </Link>
       </div>
 
-      <div className="hidden md:flex space-x-4 font-semibold gap-4 ">
+      <div className="hidden md:flex space-x-4 font-semibold gap-4 text-white">
         <Link href="/">
-          <p className="text-black">About me</p>
+          <p>About Me</p>
         </Link>
         <Link href="/services">
-          <p className="text-black">Services</p>
+          <p>Services</p>
         </Link>
-        <Link href="/portfolio">
-          <p className="text-black">Portfolio</p>
-        </Link>
+        {/* <Link href="/portfolio">
+          <p>Portfolio</p>
+        </Link> */}
         <Link href="/blog">
-          <p className="text-black">Blog</p>
+          <p>Blog</p>
         </Link>
       </div>
 
       {menuOpen && (
-        <div className="md:hidden fixed top-0 left-0 h-screen w-full bg-white text-black flex flex-col items-center">
+        <div className="md:hidden fixed top-0 left-0 h-screen w-full bg-black text-white flex flex-col items-center">
           <div className="flex justify-end p-4">
             <button onClick={toggleMenu} className="text-2xl">
               &times;
             </button>
           </div>
           <Link href="/">
-            <p className="text-black py-2">About me</p>
+            <p className=" py-2">About Me</p>
           </Link>
           <Link href="/services">
-            <p className="text-black py-2">Services</p>
+            <p className=" py-2">Services</p>
           </Link>
-          <Link href="/portfolio">
-            <p className="text-black py-2">Portfolio</p>
-          </Link>
+          {/* <Link href="/portfolio">
+            <p className=" py-2">Portfolio</p>
+          </Link> */}
           <Link href="/blog">
-            <p className="text-black py-2">Blog</p>
+            <p className=" py-2">Blog</p>
           </Link>
         </div>
       )}
