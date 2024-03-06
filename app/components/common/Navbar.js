@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black p-3 w-full flex items-center justify-between sticky z-20 top-0 shadow-2xl shadow-silver-100">
+    <nav className="bg-black p-3 w-full flex items-center justify-between overflow-x-hidden overscroll-x-none sticky z-20 top-0 shadow-2xl shadow-silver-100">
       <div className="md:hidden flex items-center">
         <button
           onClick={toggleMenu}

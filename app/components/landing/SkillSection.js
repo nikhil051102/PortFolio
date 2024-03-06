@@ -11,7 +11,7 @@ const SkillSection = () => {
             Experience
           </h1>
         </div>
-        <div className="max-w-[70vh] w-auto mt-5">
+        <div className="md:max-w-[70vh] md:w-auto w-[25rem] mt-5">
           <p className="flex items-center">
             <img src="/images/arrow.svg" alt="Arrow" />
             <span className="ml-2 text-wrap">
@@ -25,7 +25,7 @@ const SkillSection = () => {
         </div>
         <div>
           <h2 className="text-4xl font-semibold mt-8 mb-4">Skills</h2>
-          <div className="flex flex-wrap justify-center w-[26rem] ">
+          <div className="flex flex-wrap justify-center md:w-[26rem] ">
             <img src="/images/nextjs.svg" alt="NextJS" className="p-2" />
             <img src="/images/go.svg" alt="Golang" className="p-2" />
             <img src="/images/git.svg" alt="Git" className="p-2" />
@@ -39,7 +39,7 @@ const SkillSection = () => {
             />
 
             <img src="/images/figma.svg" alt="Figma" className="p-2" />
-            <p className="font-semibold text-xl underline pt-2">
+            <p className="font-semibold text-l underline pt-2">
               Complete DevOps & Development Package
             </p>
           </div>
@@ -47,7 +47,7 @@ const SkillSection = () => {
       </div>
 
       {/* right section */}
-      <div className="mt-8 ml-4 w-[70vh]">
+      <div className="mt-8 ml-2 overflow-x-hidden overscroll-x-none container md:w-[70vh]">
         <div>
           <div className="">
             <h2 className="text-4xl font-semibold">Experience</h2>

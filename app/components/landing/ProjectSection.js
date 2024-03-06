@@ -5,7 +5,7 @@ const ProjectSection = () => {
   const topProjects = projectsData.slice(0, 3);
 
   return (
-    <div className="bg-black text-white shadow-2xl shadow-black">
+    <div className="bg-black text-white overflow-x-hidden overscroll-x-none shadow-2xl shadow-black">
       <div className="flex items-center justify-center">
         <h1 className="text-4xl leading-tight font-bold mt-10">Top Projects</h1>
       </div>

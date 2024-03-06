@@ -5,7 +5,7 @@ const ContactMe = () => {
   return (
     <div
       id="contact"
-      className="bg-black text-white flex flex-wrap justify-evenly shadow-2xl shadow-black"
+      className="bg-black text-white flex flex-wrap overflow-x-hidden overscroll-x-none justify-evenly shadow-2xl shadow-black"
     >
       {/* left side */}
       <div className="flex flex-col justify-center p-8">

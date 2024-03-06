@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const MainSection = () => {
   return (
-    <div className="bg-white flex flex-wrap justify-center md:justify-around my-2">
+    <div className="bg-white flex flex-wrap overflow-x-hidden overscroll-x-none justify-center md:justify-around my-2">
       {/* Left Section */}
       <div className="flex flex-col">
         <div className="md:mt-12 mt-6 mb-[-2rem] md:ml-[-2rem] ml-[-1.2rem]">
