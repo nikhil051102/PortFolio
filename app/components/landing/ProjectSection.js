@@ -5,7 +5,7 @@ const ProjectSection = () => {
   const topProjects = projectsData.slice(0, 3);
 
   return (
-    <div className="bg-black text-white overflow-x-hidden overscroll-x-none shadow-2xl shadow-black">
+    <div className=" relative text-white overflow-x-hidden overscroll-x-none shadow-2xl shadow-black  bg-gradient-to-br from-emerald-800  via-pink-400 to-indigo-900">
       <div className="flex items-center justify-center">
         <h1 className="text-4xl leading-tight font-bold mt-10">Top Projects</h1>
       </div>
@@ -16,11 +16,11 @@ const ProjectSection = () => {
           className="w-[20rem] mt-4"
         />
       </span>
-      <div className="flex flex-wrap justify-center gap-6 mt-8">
+      <div className="flex flex-wrap justify-center gap-6 mt-8 ">
         {topProjects.map((project, index) => (
           <div
             key={index}
-            className="w-[20rem] h-auto bg-white shadow rounded-[20px] flex flex-col p-2"
+            className="w-[20rem] h-auto bg-white shadow shadow-indigo-600 rounded-[20px] flex flex-col p-2"
           >
             <img
               src={project.image}
@@ -31,7 +31,9 @@ const ProjectSection = () => {
               <h2 className="text-xl font-semibold text-black">
                 {project.title}
               </h2>
-              <p className="text-gray-700 text-sm font-light">{project.date}</p>
+              <p className="text-gray-700 text-sm font-light italic">
+                {project.date}
+              </p>
             </div>
 
             <p className="text-gray-900 px-3 pb-2 text-wrap">
@@ -50,7 +52,7 @@ const ProjectSection = () => {
             </ul>
             <div className="p-2 ">
               <button
-                className="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                className="block w-full select-none rounded-lg bg-gray-900 py-3.5 px-7 text-center align-middle text-sm font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:bg-emerald-500 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 type="button"
               >
                 View Project
@@ -61,7 +63,7 @@ const ProjectSection = () => {
       </div>
       <div className="p-6 pt-3 justify-center flex">
         <button
-          className="block  w-50% select-none rounded-lg bg-white py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-black shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          className="block  w-50% select-none rounded-lg bg-white py-3.5 px-7 text-center align-middle  text-sm font-bold uppercase text-black shadow-md  transition-all hover:shadow-lg hover:bg-indigo-600 hover:text-white focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
           View All Projects

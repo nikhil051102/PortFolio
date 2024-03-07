@@ -5,7 +5,7 @@ const ContactMe = () => {
   return (
     <div
       id="contact"
-      className="bg-black text-white flex flex-wrap overflow-x-hidden overscroll-x-none justify-evenly shadow-2xl shadow-black"
+      className="bg-gradient-to-t from-emerald-800  via-pink-400 to-indigo-900 text-white flex flex-wrap overflow-x-hidden overscroll-x-none justify-evenly shadow-2xl shadow-black"
     >
       {/* left side */}
       <div className="flex flex-col justify-center p-8">
@@ -13,13 +13,13 @@ const ContactMe = () => {
           <h1 className="text-5xl leading-tight font-bold mb-6">
             Get in touch
           </h1>
-          <p className="max-w-[80vh] w-auto mb-6 text-gray-300">
+          <p className="max-w-[80vh] w-auto mb-6 text-gray-100 italic">
             <span className="text-wrap">
               I am always open to new opportunities and collaborations. Feel
               free to reach out to me for any project or just to say hi! 📧🤝
             </span>
           </p>
-          <div className="flex flex-col italic text-gray-300">
+          <div className="flex flex-col italic ">
             <span className="flex flex-row items-center mt-2 mb-2">
               <FaBuildingColumns className="h-6 w-6" />
               <p> &nbsp;&nbsp; Jodhpur, India.</p>
@@ -46,7 +46,7 @@ const ContactMe = () => {
               type="text"
               id="name"
               placeholder="Your Name"
-              className="border rounded py-2 px-3 w-[40vh] md:w-[35rem]  text-black font-medium"
+              className="border-2 border-indigo-400  rounded py-2 px-3 w-[40vh] md:w-[35rem]  text-black font-medium"
             />
           </div>
           <div className="mb-4">
@@ -57,7 +57,7 @@ const ContactMe = () => {
               type="email"
               id="email"
               placeholder="Your Email"
-              className="border rounded py-2 px-3 w-[40vh] md:w-[35rem] text-black font-medium"
+              className="border-2 border-indigo-400  rounded py-2 px-3 w-[40vh] md:w-[35rem] text-black font-medium"
             />
           </div>
           <div className="mb-4">
@@ -68,7 +68,7 @@ const ContactMe = () => {
               type="tel"
               id="phone"
               placeholder="Your Phone"
-              className="border rounded py-2 px-3 w-[40vh] md:w-[35rem] text-black font-medium"
+              className="border-2 border-indigo-400  rounded py-2 px-3 w-[40vh] md:w-[35rem] text-black font-medium"
             />
           </div>
           <div className="mb-4">
@@ -78,7 +78,7 @@ const ContactMe = () => {
             <textarea
               id="message"
               placeholder="Your Message"
-              className="border rounded py-2 px-3 w-[40vh] md:w-[35rem] h-28 text-black font-medium"
+              className="border-2 border-indigo-400  rounded py-2 px-3 w-[40vh] md:w-[35rem] h-28 text-black font-medium"
             />
           </div>
           <button

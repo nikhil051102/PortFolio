@@ -25,7 +25,7 @@ const MainSection = () => {
         </p>
         <div className="flex mt-4">
           <Link href="#contact">
-            <button className="flex items-center justify-center bg-indigo-600 hover:bg-green-800 text-white font-bold py-4 px-6 mt-4 rounded-[20px] ">
+            <button className="flex items-center justify-center bg-indigo-600 hover:bg-emerald-400 text-white font-bold py-4 px-6 mt-4 rounded-[20px] ">
               Let's Talk
               <span className="ml-2">
                 <svg
@@ -63,7 +63,7 @@ const MainSection = () => {
             </button>
           </Link>
         </div>
-        <div className="flex items-center mt-10">
+        <div className="flex items-center md:mt-8 py-4 md:py-0 justify-center md:justify-start">
           <p className="mr-2 font-semibold">Reach Out To My Accounts - </p>
           <div className="flex items-center gap-2">
             <a

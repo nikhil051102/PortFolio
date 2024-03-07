@@ -11,7 +11,7 @@ const SkillSection = () => {
             Experience
           </h1>
         </div>
-        <div className="md:max-w-[70vh] md:w-auto w-[24rem] mt-5">
+        <div className="md:max-w-[70vh] md:w-auto w-[24rem] pt-4 px-4">
           <p className="flex items-center">
             <img src="/images/arrow.svg" alt="Arrow" />
             <span className="ml-2 text-wrap">
@@ -26,26 +26,19 @@ const SkillSection = () => {
         <div>
           <h2 className="text-4xl font-semibold mt-8 mb-4">Skills</h2>
           <div className="flex flex-wrap justify-center md:w-[26rem] w-[24rem]">
-            <img src="/images/nextjs.svg" alt="NextJS" className="md:p-2 p-1" />
-            <img src="/images/go.svg" alt="Golang" className="md:p-2 p-1" />
-            <img src="/images/git.svg" alt="Git" className="md:p-2 p-1" />
-            <img src="/images/aws.svg" alt="AWS" className="md:p-2 p-1" />
-            <img
-              src="/images/jenkins.svg"
-              alt="Jenkins"
-              className="md:p-2 p-1"
-            />
-            <img src="/images/docker.svg" alt="Docker" className="md:p-2 p-1" />
+            <img src="/images/nextjs.svg" alt="NextJS" className="md:p-1 p-1" />
+            <img src="/images/go.svg" alt="Golang" className="p-1" />
+            <img src="/images/git.svg" alt="Git" className="p-1" />
+            <img src="/images/aws.svg" alt="AWS" className="p-1" />
+            <img src="/images/jenkins.svg" alt="Jenkins" className="p-1" />
+            <img src="/images/docker.svg" alt="Docker" className="p-1" />
             <img
               src="/images/kubernetes.svg"
               alt="Kubernetes"
-              className="md:p-2 p-1"
+              className="p-1"
             />
 
-            <img src="/images/figma.svg" alt="Figma" className="md:p-2 p-1" />
-            <p className="font-semibold text-xl underline pt-2">
-              DevOps & Development Package
-            </p>
+            <img src="/images/figma.svg" alt="Figma" className="p-1" />
           </div>
         </div>
       </div>
