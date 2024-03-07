@@ -51,7 +51,7 @@ const SkillSection = () => {
       </div>
 
       {/* right section */}
-      <div className="mt-8 ml-2 overflow-x-hidden overscroll-x-none container md:w-[26rem] w-[24rem]">
+      <div className="mt-8 ml-2 overflow-x-hidden overscroll-x-none md:w-[70vh] w-[24rem]">
         <div>
           <div className="">
             <h2 className="text-4xl font-semibold">Experience</h2>
