@@ -29,7 +29,74 @@ body {
   }
 }
 
-.bgColor {
-  background-color: #2b4162;
-  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+.bg-homepage-gradient {
+  background: rgb(210, 81, 121);
+  background: -moz-linear-gradient(
+    66deg,
+    rgba(210, 81, 121, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    66deg,
+    rgba(210, 81, 121, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: linear-gradient(
+    66deg,
+    rgba(210, 81, 121, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d25179",endColorstr="#94bbe9",GradientType=1);
+}
+
+.bg-service-desc {
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.bg-services {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  transition: background 0.8s ease-in-out; /* Smooth and creative transition over 0.8 seconds */
+}
+
+.bg-services:hover {
+  background: linear-gradient(to top, #ffedc7 0%, #aeddf9 50%, #ffedc7 100%),
+    radial-gradient(
+      circle at 7.4% 45.1%,
+      rgb(236, 206, 251) 0%,
+      rgb(205, 237, 246) 45.1%,
+      rgb(132, 235, 36) 78.4%,
+      rgb(230, 247, 235) 90%
+    );
+}
+
+/* For Webkit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 6px;
+  /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    45deg,
+    #ff4500,
+    #ff00ff,
+    #00bfff,
+    #32cd32
+  ); /* colorful gradient for the thumb */
+  border-radius: 6px; /* rounded corners of the thumb */
+  border: 2px solid #fff; /* border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    45deg,
+    #ff4500,
+    #ff00ff,
+    #00bfff,
+    #32cd32
+  ); /* colorful gradient on hover */
 }

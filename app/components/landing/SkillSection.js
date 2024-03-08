@@ -2,7 +2,7 @@ import experiences from "@/public/data/experience";
 
 const SkillSection = () => {
   return (
-    <div className="bg-white flex flex-wrap justify-around p-4 shadow-2xl shadow-white">
+    <div className="bg-white flex flex-wrap justify-around p-4 shadow-2xl shadow-white overflow-x-hidden">
       {/* left section */}
       <div className="flex flex-col ml-4 mt-8 justify-center">
         <div className="text-left">

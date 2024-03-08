@@ -5,7 +5,7 @@ const ProjectSection = () => {
   const topProjects = projectsData.slice(0, 3);
 
   return (
-    <div className=" relative text-white overflow-x-hidden overscroll-x-none shadow-2xl shadow-black  bg-gradient-to-br from-emerald-800  via-pink-400 to-indigo-900">
+    <div className="bg-homepage-gradient relative text-white overflow-x-hidden overscroll-x-none shadow-2xl shadow-black  ">
       <div className="flex items-center justify-center">
         <h1 className="text-4xl leading-tight font-bold mt-10">Top Projects</h1>
       </div>
@@ -63,7 +63,7 @@ const ProjectSection = () => {
       </div>
       <div className="p-6 pt-3 justify-center flex">
         <button
-          className="block  w-50% select-none rounded-lg bg-white py-3.5 px-7 text-center align-middle  text-sm font-bold uppercase text-black shadow-md  transition-all hover:shadow-lg hover:bg-indigo-600 hover:text-white focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          className="block w-50% select-none rounded-lg bg-white py-3.5 px-7 text-center align-middle  text-sm font-bold uppercase text-black shadow-md  transition-all hover:shadow-lg hover:bg-indigo-600 hover:text-white focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
           View All Projects

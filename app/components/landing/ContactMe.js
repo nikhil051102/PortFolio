@@ -5,7 +5,7 @@ const ContactMe = () => {
   return (
     <div
       id="contact"
-      className="bg-gradient-to-t from-emerald-800  via-pink-400 to-indigo-900 text-white flex flex-wrap overflow-x-hidden overscroll-x-none justify-evenly shadow-2xl shadow-black"
+      className="bg-homepage-gradient text-white flex flex-wrap overflow-x-hidden overscroll-x-none justify-evenly shadow-2xl shadow-black"
     >
       {/* left side */}
       <div className="flex flex-col justify-center p-8">

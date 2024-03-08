@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black p-2 w-full flex items-center justify-between overflow-x-hidden overscroll-x-none sticky z-20 top-0 shadow-2xl shadow-silver-100">
+    <nav className="bg-black p-2 w-full flex items-center justify-between overflow-x-hidden overscroll-x-none  sticky z-20 top-0 shadow-2xl shadow-silver-100">
       <div className="md:hidden flex items-center">
         <button
           onClick={toggleMenu}
@@ -29,7 +29,7 @@ const Navbar = () => {
 
       <div className="hidden md:flex space-x-4 font-semibold gap-4 text-white">
         <Link href="/">
-          <p>About Me</p>
+          <p>Home</p>
         </Link>
         <Link href="/services">
           <p>Services</p>
@@ -50,7 +50,7 @@ const Navbar = () => {
             </button>
           </div>
           <Link href="/">
-            <p className=" py-2">About Me</p>
+            <p className=" py-2">Home</p>
           </Link>
           <Link href="/services">
             <p className=" py-2">Services</p>
