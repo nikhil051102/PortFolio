@@ -3,10 +3,7 @@ import { IoMdMail } from "react-icons/io";
 
 const ContactMe = () => {
   return (
-    <div
-      id="contact"
-      className="bg-homepage-gradient text-white flex flex-wrap overflow-x-hidden overscroll-x-none justify-evenly shadow-2xl shadow-black"
-    >
+    <div className="bg-homepage-gradient text-white flex flex-wrap overflow-x-hidden overscroll-x-none justify-evenly shadow-2xl shadow-black">
       {/* left side */}
       <div className="flex flex-col justify-center p-8">
         <div className="text-left">
@@ -36,7 +33,10 @@ const ContactMe = () => {
         </div>
       </div>
       {/* right side */}
-      <div className="flex flex-col items-center justify-center p-8">
+      <div
+        className="flex flex-col items-center justify-center p-8"
+        id="contact"
+      >
         <form className="flex flex-col items-end">
           <div className="mb-4">
             <label htmlFor="name" className="block font-semibold mb-2">

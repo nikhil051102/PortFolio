@@ -34,10 +34,8 @@ const Navbar = () => {
         <Link href="/services">
           <p>Services</p>
         </Link>
-        {/* <Link href="/portfolio">
-          <p>Portfolio</p>
-        </Link> */}
-        <Link href="/blog">
+
+        <Link href="/blogs">
           <p>Blog</p>
         </Link>
       </div>
@@ -50,15 +48,13 @@ const Navbar = () => {
             </button>
           </div>
           <Link href="/">
-            <p className=" py-2">Home</p>
+            <p className=" py-2 focus:text-yellow-400">Home</p>
           </Link>
           <Link href="/services">
             <p className=" py-2">Services</p>
           </Link>
-          {/* <Link href="/portfolio">
-            <p className=" py-2">Portfolio</p>
-          </Link> */}
-          <Link href="/blog">
+
+          <Link href="/blogs">
             <p className=" py-2">Blog</p>
           </Link>
         </div>
