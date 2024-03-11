@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="px-4">
+        <div className="px-4 z-20">
           <button
             className="text-3xl text-black focus:outline-none"
             onClick={toggleMenu}
